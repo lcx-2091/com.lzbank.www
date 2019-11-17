@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 2603px;
+    height: 55px;
+    background-color: #f7f7f7;
+}
+.box2{
+    float: left;
+    margin-top: 17px;
+    margin-left: 206px;
+    color: #666666;
+}
+.box3 a{
+    float: left;
+    margin-top: 17px;
+    margin-left: 100px;
+    color: #cc0000;
+    text-decoration: none;
+}
+.box4 img{
+    margin-top: 18px;
+    margin-left: 100px;
+}
+.box4 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: red;
+}
