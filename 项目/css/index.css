@@ -1,0 +1,286 @@
+/* 1.顶部 */
+.title{
+    height: 55px;
+    background-color: #F7F7F7;
+}
+.title-top{
+    /* height: 55px; */
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+.title-top-left span p{
+    float: left;
+    font-size: 15px;
+    color: #666666;
+    margin-top: 21px;
+}
+.title-top-left span a{
+    float: left;
+    font-size: 16px;
+    color: #CC0000;
+    margin-left: 46px;
+    margin-top: 21px;
+}
+.title-top-right{
+    float: right;
+    height: 55px;
+}
+.title-top-right-phone{
+    float: left;
+}
+.title-top-right-phone img{
+    float: left;
+    width: 17px;
+    height: 24px;
+    color:#666666;
+    margin-top: 16px;
+}
+.title-top-right-phone a{
+    float: right;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 21px;
+}
+.title-top-right-two{
+    float: left;
+    margin-left: 35px;
+    margin-top: 21px;
+}
+.title-top-right-two a{
+    font-size: 16px;
+    color: #666666;
+}
+.title-top-right-two i{
+    font-size: 16px;
+    color: #666666;
+    padding: 0 9px;
+}
+.title-top-right-three{
+    float: right;
+    margin: 0 30px;
+    margin-top: 21px;
+}
+.title-top-right-three img{
+    float: left;
+    width: 15px;
+    height: 16px;
+    color:#666666;
+}
+.title-top-right-three a{
+    float: right;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+}
+/* 2.搜索框 */
+.search-content{
+    height: 137px;
+    /* background-color: aqua; */
+}
+.search-content-left-logo img{
+    float: left;
+    width: 251px;
+    height: 64px;
+    margin-top: 38px;
+}
+.search-content-size-one img{
+    float: left;
+    width: 26px;
+    height: 32px;
+    margin-top: 55px;
+    margin-left: 52px;
+}
+.search-content-size-one a{
+    float: left;
+    font-size: 18px;
+    color: #2178D4;
+    margin-top: 62px;
+    margin-left: 10px;
+}
+.search-content-size-two img{
+    float: left;
+    width: 43px;
+    height: 32px;
+    margin-top: 55px;
+    margin-left: 28px;
+}
+.search-content-size-two a{
+    float: left;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 62px;
+    margin-left: 10px;
+}
+.search-content-right-logo{
+    float: right;
+}
+.search-content-right-logo img{
+    float: left;
+    width: 107px;
+    height: 65px;
+    margin-top: 34px;
+}
+.search-content-right-logo input{
+    float: left;
+    width: 563px;
+    height: 48px;
+    margin-top: 44px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.search-content-right-logo a img{
+    float: right;
+    width: 52px;
+    height: 52px;
+    margin-top: 44px;
+}
+/* 3.内容切换  */
+.contentswitching{
+    height: 56px;
+    background-color: #2178D4;
+}
+.contentswitching-size{
+    float: left;
+}
+.contentswitching-size .one{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+}
+.contentswitching-size .one a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 59px;
+}
+.contentswitching-size .one:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .two{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .two a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 59px;
+}
+.contentswitching-size .two:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .three{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .three a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 59px;
+}
+.contentswitching-size .three:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .for{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .for a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 50px;
+}
+.contentswitching-size .for:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .five{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .five a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 39px;
+}
+.contentswitching-size .five:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .six{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .six a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 30px;
+}
+.contentswitching-size .six:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .seven{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .seven a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 46px;
+}
+.contentswitching-size .seven:hover{
+    background-color: #F64949;
+}
+
+.contentswitching-size .eight{
+    float: left;
+    width: 161px;
+    height: 56px;
+    background-color: #2178D4;
+    margin-left: 32px;
+}
+.contentswitching-size .eight a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 36px;
+}
+.contentswitching-size .eight:hover{
+    background-color: #F64949;
+}
+/* 4.轮播图 */
+.bill{
+    height: 450px;
+}
+
+
+
