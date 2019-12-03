@@ -279,8 +279,69 @@
 }
 /* 4.轮播图 */
 .bill{
+    float: left;
+    width: 100%;
     height: 450px;
+    background-image: url(../img/20190617111913144ipQ31sNy.png);
 }
-
-
+.bill-content{
+    float: right;
+    width: 246px;
+    height: 300px;
+    background-color: aqua;
+}
+.bill-content h2{
+    float: left;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.bill-content a img{
+    float: right;
+    width: 246px;
+    height: 350px;
+    margin-top: 50px;
+}
+.bill-content span{
+    float: left;
+}
+.bill-content-name{
+    float: left;
+    margin-top: 16px;
+}
+.bill-content-name img{
+    float: left;
+}
+.bill-content-name input{
+    float: left;
+    width: 174px;
+    height: 30px;
+    font-size: 16px;
+}
+.bill-content-password{
+    float: left;
+    margin-top: 16px;
+}
+.bill-content-password img{
+    float: left;
+}
+.bill-content-password input{
+    float: left;
+    width: 196px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.identifyingcode input{
+    float: left;
+    width: 98px;
+    height: 38px;
+    font-size: 16px;
+}
+.identifyingcode{
+    float: left;
+    margin-top: 10px;
+}
+.identifyingcode img{
+    height: 38px;
+}
 
