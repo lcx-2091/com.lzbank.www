@@ -18,7 +18,7 @@
     float: left;
     font-size: 16px;
     color: #CC0000;
-    margin-left: 46px;
+    margin-left: 16px;
     margin-top: 21px;
 }
 .title-top-right{
@@ -193,20 +193,20 @@
     background-color: #F64949;
 }
 
-.contentswitching-size .for{
+.contentswitching-size .for-d{
     float: left;
     width: 161px;
     height: 56px;
-    background-color: #2178D4;
-    margin-left: 32px;
-}
-.contentswitching-size .for a{
-    font-size: 21px;
-    color: #FFFFFF;
     line-height: 56px;
     padding-left: 50px;
 }
-.contentswitching-size .for:hover{
+.contentswitching-size .for-d a{
+    font-size: 21px;
+    color: #FFFFFF;
+    line-height: 56px;
+    padding-left: 20px;
+}
+.contentswitching-size .for-d:hover{
     background-color: #F64949;
 }
 
@@ -278,70 +278,131 @@
     background-color: #F64949;
 }
 /* 4.轮播图 */
-.bill{
-    float: left;
-    width: 100%;
-    height: 450px;
-    background-image: url(../img/20190617111913144ipQ31sNy.png);
-}
-.bill-content{
-    float: right;
-    width: 246px;
-    height: 300px;
+.lunbotu{
+    height: 520px;
     background-color: aqua;
 }
-.bill-content h2{
-    float: left;
-    font-size: 20px;
-    color: #FFFFFF;
+.tu img{
+    width: 1903px;
+    height: 520px;
 }
-.bill-content a img{
+/* .lunbotu-content{
     float: right;
-    width: 246px;
-    height: 350px;
+    width: 399px;
+    height: 482px;
+    background-color: rgb(255, 255, 255);
+} */
+/* 5.快捷服务 */
+.fuwu{
+    height: 363px;
+    /* background-color: aqua; */
+}
+.fuwu-content{
+    margin-top: 47px;
+}
+.fuwu-content-left-top{
+    float: left;
+    border-bottom: 1px solid #DBDBDB;
+    width: 1011px;
+    height: 33px;
+}
+.fuwu-content-left-top img{
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-bottom: 5px solid #CCCCCC;
+    padding-bottom: 6px;
+}
+.fuwu-content-left-top h2{
+    float: left;
+    font-size: 25px;
+    margin-left: 9px;
+}
+.fuwu-content-left-top i{
+    float: left;
+    font-size: 15px;
+    color: #999999;
+    margin-left: 26px;
+    margin-top: 11px;
+}
+.fuwu-content-right-top{
+    float: left;
+    border-bottom: 1px solid #DBDBDB;
+    width: 585px;
+    height: 33px;
+    margin-left: 54px;
+}
+.fuwu-content-right-top img{
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-bottom: 5px solid #CCCCCC;
+    padding-bottom: 6px;
+}
+.fuwu-content-right-top h2{
+    float: left;
+    font-size: 25px;
+    margin-left: 9px;
+}
+.leixin{
+    float: left;
+    height: 275px;
+}
+.leixin ul{
+    float: left;
+    margin-top: 35px;
+}
+.leixin li{
+    float: left;
     margin-top: 50px;
+    padding: 0 52px;
 }
-.bill-content span{
-    float: left;
-}
-.bill-content-name{
-    float: left;
-    margin-top: 16px;
-}
-.bill-content-name img{
-    float: left;
-}
-.bill-content-name input{
-    float: left;
-    width: 174px;
-    height: 30px;
-    font-size: 16px;
-}
-.bill-content-password{
-    float: left;
-    margin-top: 16px;
-}
-.bill-content-password img{
-    float: left;
-}
-.bill-content-password input{
-    float: left;
-    width: 196px;
-    height: 30px;
-    font-size: 16px;
+.leixin li p{
+    font-size: 14px;
     text-align: center;
-}
-.identifyingcode input{
-    float: left;
-    width: 98px;
-    height: 38px;
-    font-size: 16px;
-}
-.identifyingcode{
-    float: left;
     margin-top: 10px;
 }
-.identifyingcode img{
-    height: 38px;
+.leixin li .lalala img{
+    height: 86px;
 }
-
+.leixin-two{
+    float: left;
+    width: 119px;
+    height: 139px;
+    background-color: #2178D4;
+    margin-top: 47px;
+}
+.leixin-two img{
+    width: 44px;
+    height: 41px;
+    line-height: 139px;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+.leixin-two p{
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+.leixin-two-right{
+    float: left;
+    width: 119px;
+    height: 139px;
+    background-color: #2178D4;
+    margin-top: 47px;
+    margin-left: 1px;
+}
+.leixin-two-right img{
+    width: 44px;
+    height: 41px;
+    line-height: 139px;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+.leixin-two-right p{
+    text-align: center;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
