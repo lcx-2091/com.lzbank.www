@@ -599,7 +599,7 @@
 }
 .finance-content{
     height: 543px;
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 .finance-content-left{
     float: left;
@@ -622,6 +622,22 @@
     background-color: deeppink;
     margin-top: 84px;
 }
-
-
+/* 10.新闻/公告 */
+.journalism{
+    height: 612px;
+    background-color: #F1F1F1;
+}
+.journalism-content li{
+    float: left;
+    width: 806px;
+    height: 447px;
+    background-color: #FFFFFF;
+    margin: 0 9px;
+    margin-top: 75px;
+}
+/* 11.底部 */
+.under{
+    height: 337px;
+    background-color: #2279D5;
+}
 
