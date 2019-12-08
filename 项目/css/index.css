@@ -737,8 +737,42 @@
     float: right;
     width: 301px;
     height: 389px;
-    background-color: deeppink;
     margin-top: 84px;
+}
+
+.finance-content-right-top {
+    height: 48px;
+    border-bottom: 1px solid    #cccccc     ;
+
+}
+.finance-content-right-top img{
+    float: left;  
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 25px;
+
+}
+.finance-content-right-top h2{
+    float: left;
+    font-size: 26px;
+    line-height: 48px;
+    margin-left: 14px;
+}
+
+.finance-content-right-bottom {
+    height: 340px;
+    width: 100%;
+}
+
+.finance-content-right-bottom  li{
+    width: 150Px;
+    height: 170px;
+    float: left;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.finance-content-right-bottom  li div{
+    margin-top: 20px;
 }
 /* 10.新闻/公告 */
 .journalism{
