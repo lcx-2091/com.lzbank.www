@@ -747,8 +747,11 @@
 }
 .finance-content-right-top img{
     float: left;  
+    width: 25px;
+    height: 25px;
     border-bottom: 3px solid #ccc;
-    padding-bottom: 25px;
+    padding-bottom: 8px;
+    margin-top: 13px;
 
 }
 .finance-content-right-top h2{
