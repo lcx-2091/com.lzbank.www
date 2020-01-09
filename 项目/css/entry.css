@@ -1,0 +1,236 @@
+/* 1.顶部 */
+.title{
+    height: 55px;
+    background-color: #F7F7F7;
+}
+.title-top{
+    /* height: 55px; */
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+.title-top-left span p{
+    float: left;
+    font-size: 15px;
+    color: #666666;
+    margin-top: 21px;
+}
+.title-top-left span a{
+    float: left;
+    font-size: 16px;
+    color: #CC0000;
+    margin-left: 16px;
+    margin-top: 21px;
+}
+.title-top-right{
+    float: right;
+    height: 55px;
+}
+.title-top-right-phone{
+    float: left;
+}
+.title-top-right-phone img{
+    float: left;
+    width: 17px;
+    height: 24px;
+    color:#666666;
+    margin-top: 16px;
+}
+.title-top-right-phone a{
+    float: right;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 21px;
+}
+.title-top-right-two{
+    float: left;
+    margin-left: 35px;
+    margin-top: 21px;
+}
+.title-top-right-two a{
+    font-size: 16px;
+    color: #666666;
+}
+.title-top-right-two i{
+    font-size: 16px;
+    color: #666666;
+    padding: 0 9px;
+}
+.title-top-right-three{
+    float: right;
+    margin: 0 30px;
+    margin-top: 21px;
+}
+.title-top-right-three img{
+    float: left;
+    width: 15px;
+    height: 16px;
+    color:#666666;
+}
+.title-top-right-three a{
+    float: right;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #666666;
+}
+/* 2.搜索框 */
+.search-content{
+    height: 137px;
+    /* background-color: aqua; */
+}
+.search-content-left-logo img{
+    float: left;
+    width: 251px;
+    height: 64px;
+    margin-top: 38px;
+}
+.search-content-size-one a{
+    float: left;
+    font-size: 20px;
+    color: #2178D4;
+    margin-top: 62px;
+    margin-left: 50px;
+}
+.search-content-size-two{
+    float: right;
+}
+.search-content-size-two a{
+    float: right;
+    font-size: 20px;
+    color: #999999;
+    margin-top: 62px;
+    margin-left: 16px;
+}
+.search-content-size-two img{
+    float: left;
+    margin-top: 60px;
+}
+/* 3.轮播图 */
+.lunbo{
+    width: 100%;
+    height: 450px;
+    background : url(../img/lunbotu-denlu.jpg) no-repeat;
+}
+.lunbo-content{
+    float: right;
+    width: 298px;
+    height: 348px;
+    background-color: #ffffff;
+    margin-top: 18px;
+    margin-right: 222px;
+    border-radius: 4%;
+}
+.lunbo-content li p{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+.lunbo-content li{
+    padding: 13px 0;
+    margin-left: 25px;
+}
+.lunbo-content li img{
+    float: left;
+}
+.lunbo-content li input{
+    width: 212px;
+    height: 30px;
+}
+
+.lunbo-content li:nth-child(3) input{
+    text-align: center;
+
+}
+.lunbo-content>input{
+    float: left;
+    width: 66px;
+    height: 30px;
+    margin-left: 25px;
+}
+.lunbo-content>img{
+    float: left;
+    margin-left: 5px;
+    height: 28px;
+}
+.anniu{
+    float: left;
+    width: 241px;
+    height: 34px;
+    background-color: #F64C4D;
+    border-radius: 5%;
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 48px;
+}
+.anniu a{
+    font-size: 15px;
+    line-height: 34px;
+    color: #ffffff;
+}
+.anniu-bottom-size p{
+    float: left;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 14px;
+}
+.anniu-bottom-size i{
+    float: right;
+    margin-right: 25px;
+    font-size: 12px;
+    color: #F64C4D;
+    margin-top: 14px;
+
+}
+/* 4.底部 */
+.under{
+    height: 337px;
+    background-color: #2279D5;
+}
+.under-content-left{
+    float: left;
+    width: 100px;
+}
+.under-content-left>ul>li{
+    float: left;
+    width: 840px;
+    font-size: 18px;
+    color: #C0DEFD;
+    padding: 20px 0;
+}
+.under-content-right{
+    /* width: 360px; */
+    height: 108px;
+    margin-left: 832px;
+    /* background-color: #FFFFFF; */
+}
+.under-content-right p{
+    width: 352px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 18px;
+}
+.under-content-right-logo{
+    float: left;
+    margin-left: 1262px;
+}
+.under-content-right-logo p{
+    text-align: center;
+    margin-top: 10px;
+    color: #C0DEFD;
+    font-size: 18px;
+}
+.under-content-right-logo-two{
+    float: left;
+    margin-left: 40px;
+}
+.under-content-right-logo-two p{
+    text-align: center;
+    margin-top: 10px;
+    color: #C0DEFD;
+    font-size: 18px;
+}
+.under-content-right .nb{
+    font-size: 32px;
+}
