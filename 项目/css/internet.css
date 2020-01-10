@@ -277,4 +277,20 @@
 .contentswitching-size .eight:hover{
     background-color: #F64949;
 }
-/* 4. */
+/* 4.特色业务 */
+.ts-title{
+    width: 100%;
+}
+.ts-title img{
+    float: left;
+    margin-top: 13px;
+    border-bottom: 3px solid #CCCCCC;
+}
+.ts-title p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 1px solid #CCCCCC;
+}
